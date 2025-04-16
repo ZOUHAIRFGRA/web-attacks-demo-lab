@@ -170,6 +170,25 @@ session_start();
                     </div>
                 </div>
             </div>
+
+            <!-- Denial of Service (DoS) -->
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <div class="card-header">
+                        <h3 class="h5 mb-0">Denial of Service (DoS)</h3>
+                    </div>
+                    <div class="card-body">
+                        <p class="mb-2">DoS vulnerabilities can overwhelm server resources. Impacts include:</p>
+                        <ul class="small mb-3">
+                            <li>Server performance degradation</li>
+                            <li>Resource exhaustion</li>
+                            <li>Service unavailability</li>
+                        </ul>
+                        <a href="attacks/dos/vulnerable.php" class="btn btn-danger mb-2">Vulnerable Example</a>
+                        <a href="attacks/dos/secure.php" class="btn btn-success">Secure Example</a>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <div class="alert alert-warning mt-4">
