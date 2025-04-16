@@ -75,7 +75,7 @@ $title = "Vulnerable SQL Injection Example";
                     <div class="mb-3">
                         <label for="search" class="form-label">Search Products:</label>
                         <input type="text" class="form-control" id="search" name="search" 
-                               placeholder="Try: ' UNION SELECT id, username, password FROM users; -- ">
+                               placeholder="Try: ' UNION SELECT id, username, password, email FROM users; -- ">
                     </div>
                     <button type="submit" class="btn btn-primary">Search</button>
                 </form>
